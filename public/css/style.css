@@ -3,6 +3,7 @@
   padding:0;
   border:0;
   }
+
 body {
   background-color: #340609;
 }
@@ -23,6 +24,7 @@ a {
 .name-surname {
   text-align: right;
   color: #F1C451;
+  margin: 3% 3% 0 0;
 }
 .letter-w {
   margin-right: 2%;
@@ -67,8 +69,9 @@ a {
   font-size: 110px;
 }
 .work-experience {
-  color: #F1C451;
+  color:#BCBC87;
   margin: 15%;
+
 
 }
 .middle-work-experiance{
@@ -77,4 +80,78 @@ a {
 .web-development-ga {
   color: #BCBC87;
   margin: 15%;
+}
+.education {
+  color: #BCBC87;
+  margin: 15%;
+}
+
+
+.extra-w { 
+  display: none;
+}
+
+p:hover .extra-w {
+  display: block;
+  font-size: 20px;
+}
+.extra-e {
+  display: none;
+}
+
+p:hover .extra-e {
+  display: block;
+  font-size: 20px;
+}
+.extra-b {
+  display: none;
+}
+p:hover .extra-b {
+  display: block;
+  font-size: 20px;
+}
+.extra-d {
+  display: none;
+}
+p:hover .extra-d {
+  display: block;
+  font-size: 20px;
+}
+.extra-e {
+  display: none;
+}
+p:hover .extra-e {
+  display: block;
+  font-size: 20px;
+}
+.extra-v {
+  display: none;
+}
+p:hover .extra-v {
+  display: block;
+  font-size: 20px;
+}
+.project-button {
+  background-color: #911702;
+}
+.extracurriculars {
+  color: #BCBC87;
+  margin: 15%;
+}
+.values {
+  color: #BCBC87;
+  margin: 15%;
+}
+.values-list {
+  font-size: 20px;
+}
+.beginning {
+  color: #BCBC87;
+  margin: 15%;
+}
+.icons {
+  position: absolute;
+  bottom: 0;
+  font-size: 30px;
+  margin: 0 0 3% 3%;
 }
