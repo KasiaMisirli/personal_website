@@ -215,4 +215,23 @@ li {
     margin-left: 23%;
     margin-bottom: 10%;
   }
+  .letter-w:hover {
+    color: #E6A042;
+    font-size: 70px;
+  }
+  .letter-e-web:hover {
+    font-size: 70px;
+  }
+  .letter-b:hover {
+    font-size: 70px;
+  }
+  .letter-d:hover{
+    font-size: 70px;
+  }
+  .letter-e-dev:hover {
+    font-size: 70px;
+  }
+  .letter-v:hover {
+    font-size: 70px;
+  }
 }
