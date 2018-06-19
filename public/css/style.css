@@ -4,7 +4,6 @@
   border:0;
   box-sizing: border-box;
   }
-
 body {
   background-color: #340609;
 }
@@ -22,7 +21,6 @@ body {
 }
 a {
   text-decoration: none;
-  /* color: #968D48; */
   color: #340609;
 }
 .name-surname {
@@ -76,7 +74,7 @@ a {
 }
 .work-experience {
   color:#BCBC87;
-  margin: 10% 15% 10% 15%;
+  margin: 10% 15% 2% 15%;
   padding-bottom: 10%;
 }
 .middle-work-experiance{
@@ -141,20 +139,26 @@ p:hover .extra-v {
 }
 .values {
   color: #BCBC87;
-  margin: 8% 15% 5% 25%;
-}
-.values-list {
-  font-size: 20px;
+  margin: 8% 13% 5% 13%;
 }
 .beginning {
   color: #BCBC87;
   margin: 5% 15% 10% 15%;
 }
 .icons {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   font-size: 30px;
   margin: 0 0 3% 3%;
+}
+.ga-icon {
+  display:block;
+}
+.linkedin-icon {
+  display:block;
+}
+.github-icon {
+  display:block;
 }
 #myVideo {
   position: fixed;
@@ -166,14 +170,23 @@ p:hover .extra-v {
 .home-btn {
   color: white;
   font-size: 30px;
+  display: block;
 }
-@media screen and (max-width:680px) {
+.core-values {
+  font-size: 50px
+} 
+li {
+  margin-left: 50px;
+  margin-top: 30px;
+  font-size: 25px;
+} 
+@media screen and (max-width: 680px) {
   .web-dev-container {
     font-size: 70px;
     margin-top: 200px;
   }
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width: 500px) {
   .web-dev-container {
     font-size: 50px;
     margin-top: 200px;
@@ -182,15 +195,22 @@ p:hover .extra-v {
     position: fixed;
     margin-top: 50px;
   }
-  li {
-    margin-left: 50px;
+  .beginning {
+    margin-left: 23%;
+    margin-bottom: 10%;
   }
-}
-.core-values {
-  font-size: 80px
-}
-li {
-  margin-left: 100px;
-  margin-top: 30px;
-  font-size: 30px;
+  .web-development-ga {
+    margin-left: 23%;
+  }
+  .work-experience {
+    margin-left: 23%;
+  }
+  .education {
+    margin-left: 23%;
+    margin-bottom: 10%;
+  }
+  .extracurriculars {
+    margin-left: 23%;
+    margin-bottom: 10%;
+  }
 }
