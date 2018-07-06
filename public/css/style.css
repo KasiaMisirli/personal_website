@@ -9,6 +9,13 @@ body {
   background-color: #340609;
   font-family: 'Open Sans', sans-serif;
 }
+.bk-style{
+  position: absolute;
+  background: #911702;
+  width: 100%;
+  height: 1200px;
+  z-index: -10;
+}
 .web-dev-container {
   font-size: 100px;
   display: flex;
@@ -31,6 +38,7 @@ a {
   margin: 3% 3% 0 0;
   position: fixed;
   right: 0;
+  text-shadow: 1px 1px #F4EAE8;
 }
 .letter-w {
   margin-right: 2%;
@@ -77,18 +85,17 @@ a {
 .work-experience {
   color:#BCBC87;
   margin: 10% 15% 2% 15%;
-  padding-bottom: 10%;
 }
 .middle-work-experiance{
   text-align: center;
 }
 .web-development-ga {
   color: #BCBC87;
-  margin: 7% 15% 10% 15%;
+  margin: 10% 15% 5% 15%;
 }
 .education {
   color: #BCBC87;
-  margin: 10% 15% 0 15%;
+  margin: 10% 15% 5% 15%;
 }
 .extra-w { 
   display: none;
@@ -137,21 +144,37 @@ p:hover .extra-v {
 }
 .extracurriculars {
   color: #BCBC87;
-  margin: 15% 15% 0 15%;
+  margin: 10% 15% 5% 15%;
 }
 .values {
   color: #BCBC87;
-  margin: 8% 13% 5% 13%;
+  margin: 10% 15% 5% 15%;
 }
 .beginning {
   color: #BCBC87;
-  margin: 5% 15% 10% 15%;
+  margin: 10% 15% 5% 15%;
 }
 .icons {
   position: fixed;
   bottom: 0;
   font-size: 30px;
-  margin: 0 0 3% 3%;
+  margin: 0 0 2% 3%;
+}
+.zen-logo{
+  display:block;
+}
+.fly-logo {
+  display:block;
+  margin-bottom: 5%;
+}
+.ikea-logo {
+  display:block;
+}
+.dev-logo {
+  display:block;
+}
+.tic-icon {
+  display:block;
 }
 .ga-icon {
   display:block;
@@ -196,6 +219,7 @@ li {
   .icons {
     position: fixed;
     margin-top: 50px;
+    /* height: 25px; */
   }
   .beginning {
     margin-left: 23%;
@@ -234,4 +258,12 @@ li {
   .letter-v:hover {
     font-size: 70px;
   }
+  .web-dev-container {
+    font-size: 43px;
+  }
+  .core-values {
+    font-size: 40px;
+    margin-left: 10%;
+    margin-top: 10%;
+  } 
 }
